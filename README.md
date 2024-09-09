@@ -29,6 +29,27 @@ The **Student Registration System** is a comprehensive software application desi
 - **Reports Module**: Generates comprehensive reports based on user activities.
 - **Utilities Module**: Contains utility functions for handling backups, restoring data, etc.
 
+## Installation
+
+-1) Clone the Repository
+```bash
+git clone https://github.com/your-username/student-registration-system.git
+cd student-registration-system
+```
+-2) Install python dependencies
+```bash
+pip install -r backend/requirements.txt
+```
+-3) Compilation and Testing
+```bash
+g++ cpp_service/main.cpp cpp_service/AdminModule.cpp cpp_service/MastersModule.cpp cpp_service/TransactionsModule.cpp cpp_service/ReportsModule.cpp cpp_service/UtilitiesModule.cpp -o registration_system
+```
+-4) Run the executable
+```bash
+./registration_system  # On Linux/Mac
+registration_system.exe  # On Windows
+```
+
 ## Project Structure
 
 ```bash
@@ -48,3 +69,9 @@ project/
 │   ├── style.css           # CSS file
 │   └── app.js              # JavaScript file for AJAX calls
 └── README.md               # This README file
+```
+
+
+
+
+
